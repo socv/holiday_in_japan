@@ -1,7 +1,7 @@
-ymd:1965-01-01	y:1965	m:1	d:1	name:元日
-ymd:1965-01-15	y:1965	m:1	d:15	name:成人の日
-ymd:1965-04-29	y:1965	m:4	d:29	name:天皇誕生日
-ymd:1965-05-03	y:1965	m:5	d:3	name:憲法記念日
-ymd:1965-05-05	y:1965	m:5	d:5	name:こどもの日
-ymd:1965-11-03	y:1965	m:11	d:3	name:文化の日
-ymd:1965-11-23	y:1965	m:11	d:23	name:勤労感謝の日
+ymd:1965-01-01	y:1965	m:1	d:1	wday:5	wday_ja:金	wday_en:Friday	name:元日
+ymd:1965-01-15	y:1965	m:1	d:15	wday:5	wday_ja:金	wday_en:Friday	name:成人の日
+ymd:1965-04-29	y:1965	m:4	d:29	wday:4	wday_ja:木	wday_en:Thursday	name:天皇誕生日
+ymd:1965-05-03	y:1965	m:5	d:3	wday:1	wday_ja:月	wday_en:Monday	name:憲法記念日
+ymd:1965-05-05	y:1965	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こどもの日
+ymd:1965-11-03	y:1965	m:11	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:文化の日
+ymd:1965-11-23	y:1965	m:11	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:勤労感謝の日
