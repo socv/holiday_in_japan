@@ -5,7 +5,7 @@
 - { ymd:"2005-03-21", y:"2005", m:"3", d:"21", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
 - { ymd:"2005-04-29", y:"2005", m:"4", d:"29", wday:"5", wday_ja:"金", wday_en:"Friday", name:"みどりの日" }
 - { ymd:"2005-05-03", y:"2005", m:"5", d:"3", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"憲法記念日" }
-- { ymd:"2005-05-04", y:"2005", m:"5", d:"4", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"国民の休日" }
+- { ymd:"2005-05-04", y:"2005", m:"5", d:"4", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"国民の休日(憲法記念日とこどもの日)" }
 - { ymd:"2005-05-05", y:"2005", m:"5", d:"5", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"こどもの日" }
 - { ymd:"2005-07-18", y:"2005", m:"7", d:"18", wday:"1", wday_ja:"月", wday_en:"Monday", name:"海の日" }
 - { ymd:"2005-09-19", y:"2005", m:"9", d:"19", wday:"1", wday_ja:"月", wday_en:"Monday", name:"敬老の日" }

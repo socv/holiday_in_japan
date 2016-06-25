@@ -374,7 +374,7 @@ ymd:1988-02-11	y:1988	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国�
 ymd:1988-03-21	y:1988	m:3	d:21	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1988-04-29	y:1988	m:4	d:29	wday:5	wday_ja:金	wday_en:Friday	name:天皇誕生日
 ymd:1988-05-03	y:1988	m:5	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:憲法記念日
-ymd:1988-05-04	y:1988	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日
+ymd:1988-05-04	y:1988	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1988-05-05	y:1988	m:5	d:5	wday:4	wday_ja:木	wday_en:Thursday	name:こどもの日
 ymd:1988-09-15	y:1988	m:9	d:15	wday:4	wday_ja:木	wday_en:Thursday	name:敬老の日
 ymd:1988-10-10	y:1988	m:10	d:10	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
@@ -388,7 +388,7 @@ ymd:1989-02-11	y:1989	m:2	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:建国�
 ymd:1989-02-24	y:1989	m:2	d:24	wday:5	wday_ja:金	wday_en:Friday	name:昭和天皇の大喪の礼
 ymd:1989-04-29	y:1989	m:4	d:29	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:1989-05-03	y:1989	m:5	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:憲法記念日
-ymd:1989-05-04	y:1989	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日
+ymd:1989-05-04	y:1989	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1989-05-05	y:1989	m:5	d:5	wday:5	wday_ja:金	wday_en:Friday	name:こどもの日
 ymd:1989-09-15	y:1989	m:9	d:15	wday:5	wday_ja:金	wday_en:Friday	name:敬老の日
 ymd:1989-10-10	y:1989	m:10	d:10	wday:2	wday_ja:火	wday_en:Tuesday	name:体育の日
@@ -402,7 +402,7 @@ ymd:1990-02-12	y:1990	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休�
 ymd:1990-04-29	y:1990	m:4	d:29	wday:0	wday_ja:日	wday_en:Sunday	name:みどりの日
 ymd:1990-04-30	y:1990	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1990-05-03	y:1990	m:5	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:憲法記念日
-ymd:1990-05-04	y:1990	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:国民の休日
+ymd:1990-05-04	y:1990	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1990-05-05	y:1990	m:5	d:5	wday:6	wday_ja:土	wday_en:Saturday	name:こどもの日
 ymd:1990-09-15	y:1990	m:9	d:15	wday:6	wday_ja:土	wday_en:Saturday	name:敬老の日
 ymd:1990-09-24	y:1990	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
@@ -417,7 +417,7 @@ ymd:1991-01-15	y:1991	m:1	d:15	wday:2	wday_ja:火	wday_en:Tuesday	name:成人の
 ymd:1991-02-11	y:1991	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記念の日
 ymd:1991-04-29	y:1991	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:1991-05-03	y:1991	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
-ymd:1991-05-04	y:1991	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日
+ymd:1991-05-04	y:1991	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1991-05-05	y:1991	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
 ymd:1991-05-06	y:1991	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1991-09-15	y:1991	m:9	d:15	wday:0	wday_ja:日	wday_en:Sunday	name:敬老の日
@@ -444,7 +444,7 @@ ymd:1993-01-15	y:1993	m:1	d:15	wday:5	wday_ja:金	wday_en:Friday	name:成人の�
 ymd:1993-02-11	y:1993	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国記念の日
 ymd:1993-04-29	y:1993	m:4	d:29	wday:4	wday_ja:木	wday_en:Thursday	name:みどりの日
 ymd:1993-05-03	y:1993	m:5	d:3	wday:1	wday_ja:月	wday_en:Monday	name:憲法記念日
-ymd:1993-05-04	y:1993	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:1993-05-04	y:1993	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1993-05-05	y:1993	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こどもの日
 ymd:1993-06-09	y:1993	m:6	d:9	wday:3	wday_ja:水	wday_en:Wednesday	name:皇太子・徳仁親王の結婚の儀
 ymd:1993-09-15	y:1993	m:9	d:15	wday:3	wday_ja:水	wday_en:Wednesday	name:敬老の日
@@ -458,7 +458,7 @@ ymd:1994-01-15	y:1994	m:1	d:15	wday:6	wday_ja:土	wday_en:Saturday	name:成人�
 ymd:1994-02-11	y:1994	m:2	d:11	wday:5	wday_ja:金	wday_en:Friday	name:建国記念の日
 ymd:1994-04-29	y:1994	m:4	d:29	wday:5	wday_ja:金	wday_en:Friday	name:みどりの日
 ymd:1994-05-03	y:1994	m:5	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:憲法記念日
-ymd:1994-05-04	y:1994	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日
+ymd:1994-05-04	y:1994	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1994-05-05	y:1994	m:5	d:5	wday:4	wday_ja:木	wday_en:Thursday	name:こどもの日
 ymd:1994-09-15	y:1994	m:9	d:15	wday:4	wday_ja:木	wday_en:Thursday	name:敬老の日
 ymd:1994-10-10	y:1994	m:10	d:10	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
@@ -472,7 +472,7 @@ ymd:1995-01-16	y:1995	m:1	d:16	wday:1	wday_ja:月	wday_en:Monday	name:振替休�
 ymd:1995-02-11	y:1995	m:2	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:建国記念の日
 ymd:1995-04-29	y:1995	m:4	d:29	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:1995-05-03	y:1995	m:5	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:憲法記念日
-ymd:1995-05-04	y:1995	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日
+ymd:1995-05-04	y:1995	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1995-05-05	y:1995	m:5	d:5	wday:5	wday_ja:金	wday_en:Friday	name:こどもの日
 ymd:1995-09-15	y:1995	m:9	d:15	wday:5	wday_ja:金	wday_en:Friday	name:敬老の日
 ymd:1995-10-10	y:1995	m:10	d:10	wday:2	wday_ja:火	wday_en:Tuesday	name:体育の日
@@ -485,7 +485,7 @@ ymd:1996-02-11	y:1996	m:2	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:建国記�
 ymd:1996-02-12	y:1996	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1996-04-29	y:1996	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:1996-05-03	y:1996	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
-ymd:1996-05-04	y:1996	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日
+ymd:1996-05-04	y:1996	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1996-05-05	y:1996	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
 ymd:1996-05-06	y:1996	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1996-07-20	y:1996	m:7	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:海の日
@@ -529,7 +529,7 @@ ymd:1999-02-11	y:1999	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国�
 ymd:1999-03-22	y:1999	m:3	d:22	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1999-04-29	y:1999	m:4	d:29	wday:4	wday_ja:木	wday_en:Thursday	name:みどりの日
 ymd:1999-05-03	y:1999	m:5	d:3	wday:1	wday_ja:月	wday_en:Monday	name:憲法記念日
-ymd:1999-05-04	y:1999	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:1999-05-04	y:1999	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1999-05-05	y:1999	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こどもの日
 ymd:1999-07-20	y:1999	m:7	d:20	wday:2	wday_ja:火	wday_en:Tuesday	name:海の日
 ymd:1999-09-15	y:1999	m:9	d:15	wday:3	wday_ja:水	wday_en:Wednesday	name:敬老の日
@@ -544,7 +544,7 @@ ymd:2000-02-11	y:2000	m:2	d:11	wday:5	wday_ja:金	wday_en:Friday	name:建国記�
 ymd:2000-03-20	y:2000	m:3	d:20	wday:1	wday_ja:月	wday_en:Monday	name:春分の日
 ymd:2000-04-29	y:2000	m:4	d:29	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2000-05-03	y:2000	m:5	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:憲法記念日
-ymd:2000-05-04	y:2000	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日
+ymd:2000-05-04	y:2000	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2000-05-05	y:2000	m:5	d:5	wday:5	wday_ja:金	wday_en:Friday	name:こどもの日
 ymd:2000-07-20	y:2000	m:7	d:20	wday:4	wday_ja:木	wday_en:Thursday	name:海の日
 ymd:2000-09-15	y:2000	m:9	d:15	wday:5	wday_ja:金	wday_en:Friday	name:敬老の日
@@ -561,7 +561,7 @@ ymd:2001-03-20	y:2001	m:3	d:20	wday:2	wday_ja:火	wday_en:Tuesday	name:春分の
 ymd:2001-04-29	y:2001	m:4	d:29	wday:0	wday_ja:日	wday_en:Sunday	name:みどりの日
 ymd:2001-04-30	y:2001	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:2001-05-03	y:2001	m:5	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:憲法記念日
-ymd:2001-05-04	y:2001	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:国民の休日
+ymd:2001-05-04	y:2001	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2001-05-05	y:2001	m:5	d:5	wday:6	wday_ja:土	wday_en:Saturday	name:こどもの日
 ymd:2001-07-20	y:2001	m:7	d:20	wday:5	wday_ja:金	wday_en:Friday	name:海の日
 ymd:2001-09-15	y:2001	m:9	d:15	wday:6	wday_ja:土	wday_en:Saturday	name:敬老の日
@@ -578,7 +578,7 @@ ymd:2002-02-11	y:2002	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記�
 ymd:2002-03-21	y:2002	m:3	d:21	wday:4	wday_ja:木	wday_en:Thursday	name:春分の日
 ymd:2002-04-29	y:2002	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:2002-05-03	y:2002	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
-ymd:2002-05-04	y:2002	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日
+ymd:2002-05-04	y:2002	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2002-05-05	y:2002	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
 ymd:2002-05-06	y:2002	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:2002-07-20	y:2002	m:7	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:海の日
@@ -611,7 +611,7 @@ ymd:2004-02-11	y:2004	m:2	d:11	wday:3	wday_ja:水	wday_en:Wednesday	name:建国�
 ymd:2004-03-20	y:2004	m:3	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:春分の日
 ymd:2004-04-29	y:2004	m:4	d:29	wday:4	wday_ja:木	wday_en:Thursday	name:みどりの日
 ymd:2004-05-03	y:2004	m:5	d:3	wday:1	wday_ja:月	wday_en:Monday	name:憲法記念日
-ymd:2004-05-04	y:2004	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2004-05-04	y:2004	m:5	d:4	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2004-05-05	y:2004	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こどもの日
 ymd:2004-07-19	y:2004	m:7	d:19	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2004-09-20	y:2004	m:9	d:20	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
@@ -627,7 +627,7 @@ ymd:2005-03-20	y:2005	m:3	d:20	wday:0	wday_ja:日	wday_en:Sunday	name:春分の�
 ymd:2005-03-21	y:2005	m:3	d:21	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:2005-04-29	y:2005	m:4	d:29	wday:5	wday_ja:金	wday_en:Friday	name:みどりの日
 ymd:2005-05-03	y:2005	m:5	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:憲法記念日
-ymd:2005-05-04	y:2005	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日
+ymd:2005-05-04	y:2005	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2005-05-05	y:2005	m:5	d:5	wday:4	wday_ja:木	wday_en:Thursday	name:こどもの日
 ymd:2005-07-18	y:2005	m:7	d:18	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2005-09-19	y:2005	m:9	d:19	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
@@ -643,7 +643,7 @@ ymd:2006-02-11	y:2006	m:2	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:建国�
 ymd:2006-03-21	y:2006	m:3	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:春分の日
 ymd:2006-04-29	y:2006	m:4	d:29	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2006-05-03	y:2006	m:5	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:憲法記念日
-ymd:2006-05-04	y:2006	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日
+ymd:2006-05-04	y:2006	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:国民の休日(憲法記念日とこどもの日)
 ymd:2006-05-05	y:2006	m:5	d:5	wday:5	wday_ja:金	wday_en:Friday	name:こどもの日
 ymd:2006-07-17	y:2006	m:7	d:17	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2006-09-18	y:2006	m:9	d:18	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
@@ -699,7 +699,7 @@ ymd:2009-05-05	y:2009	m:5	d:5	wday:2	wday_ja:火	wday_en:Tuesday	name:こども�
 ymd:2009-05-06	y:2009	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替休日
 ymd:2009-07-20	y:2009	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2009-09-21	y:2009	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2009-09-22	y:2009	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2009-09-22	y:2009	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2009-09-23	y:2009	m:9	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:秋分の日
 ymd:2009-10-12	y:2009	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2009-11-03	y:2009	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
@@ -809,7 +809,7 @@ ymd:2016-01-01	y:2016	m:1	d:1	wday:5	wday_ja:金	wday_en:Friday	name:元日
 ymd:2016-01-11	y:2016	m:1	d:11	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2016-02-11	y:2016	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国記念の日
 ymd:2016-03-20	y:2016	m:3	d:20	wday:0	wday_ja:日	wday_en:Sunday	name:春分の日
-ymd:2016-03-21	y:2016	m:3	d:21	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(春分の日)
+ymd:2016-03-21	y:2016	m:3	d:21	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と春分の日)
 ymd:2016-04-29	y:2016	m:4	d:29	wday:5	wday_ja:金	wday_en:Friday	name:昭和の日
 ymd:2016-05-03	y:2016	m:5	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:憲法記念日
 ymd:2016-05-04	y:2016	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:みどりの日
@@ -823,7 +823,7 @@ ymd:2016-11-03	y:2016	m:11	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:文化�
 ymd:2016-11-23	y:2016	m:11	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:勤労感謝の日
 ymd:2016-12-23	y:2016	m:12	d:23	wday:5	wday_ja:金	wday_en:Friday	name:天皇誕生日
 ymd:2017-01-01	y:2017	m:1	d:1	wday:0	wday_ja:日	wday_en:Sunday	name:元日
-ymd:2017-01-02	y:2017	m:1	d:2	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(元日)
+ymd:2017-01-02	y:2017	m:1	d:2	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と元日)
 ymd:2017-01-09	y:2017	m:1	d:9	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2017-02-11	y:2017	m:2	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:建国記念の日
 ymd:2017-03-20	y:2017	m:3	d:20	wday:1	wday_ja:月	wday_en:Monday	name:春分の日
@@ -842,10 +842,10 @@ ymd:2017-12-23	y:2017	m:12	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:天皇�
 ymd:2018-01-01	y:2018	m:1	d:1	wday:1	wday_ja:月	wday_en:Monday	name:元日
 ymd:2018-01-08	y:2018	m:1	d:8	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2018-02-11	y:2018	m:2	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:建国記念の日
-ymd:2018-02-12	y:2018	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2018-02-12	y:2018	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と建国記念日)
 ymd:2018-03-21	y:2018	m:3	d:21	wday:3	wday_ja:水	wday_en:Wednesday	name:春分の日(未確定)
 ymd:2018-04-29	y:2018	m:4	d:29	wday:0	wday_ja:日	wday_en:Sunday	name:昭和の日
-ymd:2018-04-30	y:2018	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2018-04-30	y:2018	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と昭和の日)
 ymd:2018-05-03	y:2018	m:5	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:憲法記念日
 ymd:2018-05-04	y:2018	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:みどりの日
 ymd:2018-05-05	y:2018	m:5	d:5	wday:6	wday_ja:土	wday_en:Saturday	name:こどもの日
@@ -853,12 +853,12 @@ ymd:2018-07-16	y:2018	m:7	d:16	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2018-08-11	y:2018	m:8	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:山の日
 ymd:2018-09-17	y:2018	m:9	d:17	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
 ymd:2018-09-23	y:2018	m:9	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:秋分の日(未確定)
-ymd:2018-09-24	y:2018	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2018-09-24	y:2018	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と秋分の日)
 ymd:2018-10-08	y:2018	m:10	d:8	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2018-11-03	y:2018	m:11	d:3	wday:6	wday_ja:土	wday_en:Saturday	name:文化の日
 ymd:2018-11-23	y:2018	m:11	d:23	wday:5	wday_ja:金	wday_en:Friday	name:勤労感謝の日
 ymd:2018-12-23	y:2018	m:12	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:天皇誕生日
-ymd:2018-12-24	y:2018	m:12	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2018-12-24	y:2018	m:12	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と天皇誕生日)
 ymd:2019-01-01	y:2019	m:1	d:1	wday:2	wday_ja:火	wday_en:Tuesday	name:元日
 ymd:2019-01-14	y:2019	m:1	d:14	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2019-02-11	y:2019	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記念の日
@@ -867,15 +867,15 @@ ymd:2019-04-29	y:2019	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:昭和の�
 ymd:2019-05-03	y:2019	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
 ymd:2019-05-04	y:2019	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2019-05-05	y:2019	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
-ymd:2019-05-06	y:2019	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-05-06	y:2019	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日とこどもの日)
 ymd:2019-07-15	y:2019	m:7	d:15	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2019-08-11	y:2019	m:8	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:山の日
-ymd:2019-08-12	y:2019	m:8	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-08-12	y:2019	m:8	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と山の日)
 ymd:2019-09-16	y:2019	m:9	d:16	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
 ymd:2019-09-23	y:2019	m:9	d:23	wday:1	wday_ja:月	wday_en:Monday	name:秋分の日(未確定)
 ymd:2019-10-14	y:2019	m:10	d:14	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2019-11-03	y:2019	m:11	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:文化の日
-ymd:2019-11-04	y:2019	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-11-04	y:2019	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と文化の日)
 ymd:2019-11-23	y:2019	m:11	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:勤労感謝の日
 ymd:2019-12-23	y:2019	m:12	d:23	wday:1	wday_ja:月	wday_en:Monday	name:天皇誕生日
 ymd:2020-01-01	y:2020	m:1	d:1	wday:3	wday_ja:水	wday_en:Wednesday	name:元日
@@ -886,7 +886,7 @@ ymd:2020-04-29	y:2020	m:4	d:29	wday:3	wday_ja:水	wday_en:Wednesday	name:昭和�
 ymd:2020-05-03	y:2020	m:5	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:憲法記念日
 ymd:2020-05-04	y:2020	m:5	d:4	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:2020-05-05	y:2020	m:5	d:5	wday:2	wday_ja:火	wday_en:Tuesday	name:こどもの日
-ymd:2020-05-06	y:2020	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替休日
+ymd:2020-05-06	y:2020	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替休日(日曜日と子供の日)
 ymd:2020-07-20	y:2020	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2020-08-11	y:2020	m:8	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:山の日
 ymd:2020-09-21	y:2020	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
@@ -995,7 +995,7 @@ ymd:2026-05-06	y:2026	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替�
 ymd:2026-07-20	y:2026	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2026-08-11	y:2026	m:8	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:山の日
 ymd:2026-09-21	y:2026	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2026-09-22	y:2026	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2026-09-22	y:2026	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2026-09-23	y:2026	m:9	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:秋分の日(未確定)
 ymd:2026-10-12	y:2026	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2026-11-03	y:2026	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
@@ -1099,7 +1099,7 @@ ymd:2032-05-05	y:2032	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こど�
 ymd:2032-07-19	y:2032	m:7	d:19	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2032-08-11	y:2032	m:8	d:11	wday:3	wday_ja:水	wday_en:Wednesday	name:山の日
 ymd:2032-09-20	y:2032	m:9	d:20	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2032-09-21	y:2032	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2032-09-21	y:2032	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2032-10-11	y:2032	m:10	d:11	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2032-11-03	y:2032	m:11	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:文化の日
 ymd:2032-11-23	y:2032	m:11	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:勤労感謝の日
@@ -1179,7 +1179,7 @@ ymd:2037-05-06	y:2037	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替�
 ymd:2037-07-20	y:2037	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2037-08-11	y:2037	m:8	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:山の日
 ymd:2037-09-21	y:2037	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2037-09-22	y:2037	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2037-09-22	y:2037	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2037-10-12	y:2037	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2037-11-03	y:2037	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
 ymd:2037-11-23	y:2037	m:11	d:23	wday:1	wday_ja:月	wday_en:Monday	name:勤労感謝の日
@@ -1273,7 +1273,7 @@ ymd:2043-05-06	y:2043	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替�
 ymd:2043-07-20	y:2043	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2043-08-11	y:2043	m:8	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:山の日
 ymd:2043-09-21	y:2043	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2043-09-22	y:2043	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2043-09-22	y:2043	m:9	d:22	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2043-10-12	y:2043	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2043-11-03	y:2043	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
 ymd:2043-11-23	y:2043	m:11	d:23	wday:1	wday_ja:月	wday_en:Monday	name:勤労感謝の日
@@ -1368,7 +1368,7 @@ ymd:2049-05-05	y:2049	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こど�
 ymd:2049-07-19	y:2049	m:7	d:19	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2049-08-11	y:2049	m:8	d:11	wday:3	wday_ja:水	wday_en:Wednesday	name:山の日
 ymd:2049-09-20	y:2049	m:9	d:20	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2049-09-21	y:2049	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日
+ymd:2049-09-21	y:2049	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日(敬老の日と秋分の日)
 ymd:2049-10-11	y:2049	m:10	d:11	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2049-11-03	y:2049	m:11	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:文化の日
 ymd:2049-11-23	y:2049	m:11	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:勤労感謝の日

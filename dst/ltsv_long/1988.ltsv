@@ -4,7 +4,7 @@ ymd:1988-02-11	y:1988	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国�
 ymd:1988-03-21	y:1988	m:3	d:21	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
 ymd:1988-04-29	y:1988	m:4	d:29	wday:5	wday_ja:金	wday_en:Friday	name:天皇誕生日
 ymd:1988-05-03	y:1988	m:5	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:憲法記念日
-ymd:1988-05-04	y:1988	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日
+ymd:1988-05-04	y:1988	m:5	d:4	wday:3	wday_ja:水	wday_en:Wednesday	name:国民の休日(憲法記念日とこどもの日)
 ymd:1988-05-05	y:1988	m:5	d:5	wday:4	wday_ja:木	wday_en:Thursday	name:こどもの日
 ymd:1988-09-15	y:1988	m:9	d:15	wday:4	wday_ja:木	wday_en:Thursday	name:敬老の日
 ymd:1988-10-10	y:1988	m:10	d:10	wday:1	wday_ja:月	wday_en:Monday	name:体育の日

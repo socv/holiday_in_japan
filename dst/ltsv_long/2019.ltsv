@@ -6,14 +6,14 @@ ymd:2019-04-29	y:2019	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:昭和の�
 ymd:2019-05-03	y:2019	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
 ymd:2019-05-04	y:2019	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2019-05-05	y:2019	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
-ymd:2019-05-06	y:2019	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-05-06	y:2019	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日とこどもの日)
 ymd:2019-07-15	y:2019	m:7	d:15	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2019-08-11	y:2019	m:8	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:山の日
-ymd:2019-08-12	y:2019	m:8	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-08-12	y:2019	m:8	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と山の日)
 ymd:2019-09-16	y:2019	m:9	d:16	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
 ymd:2019-09-23	y:2019	m:9	d:23	wday:1	wday_ja:月	wday_en:Monday	name:秋分の日(未確定)
 ymd:2019-10-14	y:2019	m:10	d:14	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2019-11-03	y:2019	m:11	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:文化の日
-ymd:2019-11-04	y:2019	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2019-11-04	y:2019	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(日曜日と文化の日)
 ymd:2019-11-23	y:2019	m:11	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:勤労感謝の日
 ymd:2019-12-23	y:2019	m:12	d:23	wday:1	wday_ja:月	wday_en:Monday	name:天皇誕生日
