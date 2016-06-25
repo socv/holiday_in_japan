@@ -1,7 +1,7 @@
 ymd:1996-01-01	y:1996	m:1	d:1	wday:1	wday_ja:月	wday_en:Monday	name:元日
 ymd:1996-01-15	y:1996	m:1	d:15	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:1996-02-11	y:1996	m:2	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:建国記念の日
-ymd:1996-02-12	y:1996	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1996-02-12	y:1996	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/建国記念の日)
 ymd:1996-04-29	y:1996	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:1996-05-03	y:1996	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
 ymd:1996-05-04	y:1996	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日 (憲法記念日/こどもの日)
@@ -9,9 +9,9 @@ ymd:1996-05-05	y:1996	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こども�
 ymd:1996-05-06	y:1996	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/こどもの日)
 ymd:1996-07-20	y:1996	m:7	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:海の日
 ymd:1996-09-15	y:1996	m:9	d:15	wday:0	wday_ja:日	wday_en:Sunday	name:敬老の日
-ymd:1996-09-16	y:1996	m:9	d:16	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1996-09-16	y:1996	m:9	d:16	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/敬老の日)
 ymd:1996-10-10	y:1996	m:10	d:10	wday:4	wday_ja:木	wday_en:Thursday	name:体育の日
 ymd:1996-11-03	y:1996	m:11	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:文化の日
-ymd:1996-11-04	y:1996	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1996-11-04	y:1996	m:11	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/文化の日)
 ymd:1996-11-23	y:1996	m:11	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:勤労感謝の日
 ymd:1996-12-23	y:1996	m:12	d:23	wday:1	wday_ja:月	wday_en:Monday	name:天皇誕生日

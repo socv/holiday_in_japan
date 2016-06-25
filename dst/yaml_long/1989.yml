@@ -1,7 +1,7 @@
 - { ymd:"1989-01-01", y:"1989", m:"1", d:"1", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"元日" }
 - { ymd:"1989-01-02", y:"1989", m:"1", d:"2", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日 (日曜日/元日)" }
 - { ymd:"1989-01-15", y:"1989", m:"1", d:"15", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"成人の日" }
-- { ymd:"1989-01-16", y:"1989", m:"1", d:"16", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
+- { ymd:"1989-01-16", y:"1989", m:"1", d:"16", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日 (日曜日/成人の日)" }
 - { ymd:"1989-02-11", y:"1989", m:"2", d:"11", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"建国記念の日" }
 - { ymd:"1989-02-24", y:"1989", m:"2", d:"24", wday:"5", wday_ja:"金", wday_en:"Friday", name:"昭和天皇の大喪の礼" }
 - { ymd:"1989-04-29", y:"1989", m:"4", d:"29", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"みどりの日" }

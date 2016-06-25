@@ -1,14 +1,14 @@
 ymd:1990-01-01	y:1990	m:1	d:1	wday:1	wday_ja:月	wday_en:Monday	name:元日
 ymd:1990-01-15	y:1990	m:1	d:15	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:1990-02-11	y:1990	m:2	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:建国記念の日
-ymd:1990-02-12	y:1990	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1990-02-12	y:1990	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/建国記念の日)
 ymd:1990-04-29	y:1990	m:4	d:29	wday:0	wday_ja:日	wday_en:Sunday	name:みどりの日
 ymd:1990-04-30	y:1990	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/みどりの日)
 ymd:1990-05-03	y:1990	m:5	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:憲法記念日
 ymd:1990-05-04	y:1990	m:5	d:4	wday:5	wday_ja:金	wday_en:Friday	name:国民の休日 (憲法記念日/こどもの日)
 ymd:1990-05-05	y:1990	m:5	d:5	wday:6	wday_ja:土	wday_en:Saturday	name:こどもの日
 ymd:1990-09-15	y:1990	m:9	d:15	wday:6	wday_ja:土	wday_en:Saturday	name:敬老の日
-ymd:1990-09-24	y:1990	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1990-09-24	y:1990	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/秋分の日)
 ymd:1990-10-10	y:1990	m:10	d:10	wday:3	wday_ja:水	wday_en:Wednesday	name:体育の日
 ymd:1990-11-03	y:1990	m:11	d:3	wday:6	wday_ja:土	wday_en:Saturday	name:文化の日
 ymd:1990-11-12	y:1990	m:11	d:12	wday:1	wday_ja:月	wday_en:Monday	name:即位の礼正殿の儀

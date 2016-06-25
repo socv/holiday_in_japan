@@ -10,5 +10,5 @@ ymd:1997-09-15	y:1997	m:9	d:15	wday:1	wday_ja:月	wday_en:Monday	name:敬老の�
 ymd:1997-10-10	y:1997	m:10	d:10	wday:5	wday_ja:金	wday_en:Friday	name:体育の日
 ymd:1997-11-03	y:1997	m:11	d:3	wday:1	wday_ja:月	wday_en:Monday	name:文化の日
 ymd:1997-11-23	y:1997	m:11	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:勤労感謝の日
-ymd:1997-11-24	y:1997	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1997-11-24	y:1997	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/勤労感謝の日)
 ymd:1997-12-23	y:1997	m:12	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:天皇誕生日
