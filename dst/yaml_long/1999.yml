@@ -4,7 +4,7 @@
 - { ymd:"1999-03-22", y:"1999", m:"3", d:"22", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
 - { ymd:"1999-04-29", y:"1999", m:"4", d:"29", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"みどりの日" }
 - { ymd:"1999-05-03", y:"1999", m:"5", d:"3", wday:"1", wday_ja:"月", wday_en:"Monday", name:"憲法記念日" }
-- { ymd:"1999-05-04", y:"1999", m:"5", d:"4", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"国民の休日 (憲法記念日とこどもの日)" }
+- { ymd:"1999-05-04", y:"1999", m:"5", d:"4", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"国民の休日 (憲法記念日/こどもの日)" }
 - { ymd:"1999-05-05", y:"1999", m:"5", d:"5", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"こどもの日" }
 - { ymd:"1999-07-20", y:"1999", m:"7", d:"20", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"海の日" }
 - { ymd:"1999-09-15", y:"1999", m:"9", d:"15", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"敬老の日" }

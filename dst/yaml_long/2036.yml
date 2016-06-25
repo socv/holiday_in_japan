@@ -5,7 +5,7 @@
 - { ymd:"2036-05-03", y:"2036", m:"5", d:"3", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"憲法記念日" }
 - { ymd:"2036-05-04", y:"2036", m:"5", d:"4", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"みどりの日" }
 - { ymd:"2036-05-05", y:"2036", m:"5", d:"5", wday:"1", wday_ja:"月", wday_en:"Monday", name:"こどもの日" }
-- { ymd:"2036-05-06", y:"2036", m:"5", d:"6", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"振替休日" }
+- { ymd:"2036-05-06", y:"2036", m:"5", d:"6", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"振替休日 (日曜日/こどもの日)" }
 - { ymd:"2036-07-21", y:"2036", m:"7", d:"21", wday:"1", wday_ja:"月", wday_en:"Monday", name:"海の日" }
 - { ymd:"2036-08-11", y:"2036", m:"8", d:"11", wday:"1", wday_ja:"月", wday_en:"Monday", name:"山の日" }
 - { ymd:"2036-09-15", y:"2036", m:"9", d:"15", wday:"1", wday_ja:"月", wday_en:"Monday", name:"敬老の日" }

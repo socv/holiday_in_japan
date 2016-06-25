@@ -5,7 +5,7 @@ ymd:2047-04-29	y:2047	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:昭和の�
 ymd:2047-05-03	y:2047	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
 ymd:2047-05-04	y:2047	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2047-05-05	y:2047	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
-ymd:2047-05-06	y:2047	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2047-05-06	y:2047	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/こどもの日)
 ymd:2047-07-15	y:2047	m:7	d:15	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2047-08-11	y:2047	m:8	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:山の日
 ymd:2047-08-12	y:2047	m:8	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日

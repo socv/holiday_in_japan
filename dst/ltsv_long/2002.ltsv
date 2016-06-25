@@ -4,9 +4,9 @@ ymd:2002-02-11	y:2002	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記�
 ymd:2002-03-21	y:2002	m:3	d:21	wday:4	wday_ja:木	wday_en:Thursday	name:春分の日
 ymd:2002-04-29	y:2002	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:2002-05-03	y:2002	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
-ymd:2002-05-04	y:2002	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日 (憲法記念日とこどもの日)
+ymd:2002-05-04	y:2002	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:国民の休日 (憲法記念日/こどもの日)
 ymd:2002-05-05	y:2002	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
-ymd:2002-05-06	y:2002	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2002-05-06	y:2002	m:5	d:6	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/こどもの日)
 ymd:2002-07-20	y:2002	m:7	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:海の日
 ymd:2002-09-15	y:2002	m:9	d:15	wday:0	wday_ja:日	wday_en:Sunday	name:敬老の日
 ymd:2002-09-16	y:2002	m:9	d:16	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
