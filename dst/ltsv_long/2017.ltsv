@@ -1,8 +1,8 @@
 ymd:2017-01-01	y:2017	m:1	d:1	wday:0	wday_ja:日	wday_en:Sunday	name:元日
-ymd:2017-01-02	y:2017	m:1	d:2	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:2017-01-02	y:2017	m:1	d:2	wday:1	wday_ja:月	wday_en:Monday	name:振替休日(元日)
 ymd:2017-01-09	y:2017	m:1	d:9	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2017-02-11	y:2017	m:2	d:11	wday:6	wday_ja:土	wday_en:Saturday	name:建国記念の日
-ymd:2017-03-20	y:2017	m:3	d:20	wday:1	wday_ja:月	wday_en:Monday	name:春分の日(未確定)
+ymd:2017-03-20	y:2017	m:3	d:20	wday:1	wday_ja:月	wday_en:Monday	name:春分の日
 ymd:2017-04-29	y:2017	m:4	d:29	wday:6	wday_ja:土	wday_en:Saturday	name:昭和の日
 ymd:2017-05-03	y:2017	m:5	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:憲法記念日
 ymd:2017-05-04	y:2017	m:5	d:4	wday:4	wday_ja:木	wday_en:Thursday	name:みどりの日
@@ -10,7 +10,7 @@ ymd:2017-05-05	y:2017	m:5	d:5	wday:5	wday_ja:金	wday_en:Friday	name:こども�
 ymd:2017-07-17	y:2017	m:7	d:17	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2017-08-11	y:2017	m:8	d:11	wday:5	wday_ja:金	wday_en:Friday	name:山の日
 ymd:2017-09-18	y:2017	m:9	d:18	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2017-09-23	y:2017	m:9	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:秋分の日(未確定)
+ymd:2017-09-23	y:2017	m:9	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:秋分の日
 ymd:2017-10-09	y:2017	m:10	d:9	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2017-11-03	y:2017	m:11	d:3	wday:5	wday_ja:金	wday_en:Friday	name:文化の日
 ymd:2017-11-23	y:2017	m:11	d:23	wday:4	wday_ja:木	wday_en:Thursday	name:勤労感謝の日
