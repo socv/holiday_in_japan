@@ -3,7 +3,7 @@ ymd:1992-01-15	y:1992	m:1	d:15	wday:3	wday_ja:水	wday_en:Wednesday	name:成人�
 ymd:1992-02-11	y:1992	m:2	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:建国記念の日
 ymd:1992-04-29	y:1992	m:4	d:29	wday:3	wday_ja:水	wday_en:Wednesday	name:みどりの日
 ymd:1992-05-03	y:1992	m:5	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:憲法記念日
-ymd:1992-05-04	y:1992	m:5	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日
+ymd:1992-05-04	y:1992	m:5	d:4	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/
 ymd:1992-05-05	y:1992	m:5	d:5	wday:2	wday_ja:火	wday_en:Tuesday	name:こどもの日
 ymd:1992-09-15	y:1992	m:9	d:15	wday:2	wday_ja:火	wday_en:Tuesday	name:敬老の日
 ymd:1992-10-10	y:1992	m:10	d:10	wday:6	wday_ja:土	wday_en:Saturday	name:体育の日

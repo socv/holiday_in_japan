@@ -10,7 +10,7 @@ my $src_dir      = "src/yaml";
 my $dst_base_dir = "dst";
 
 
-my @all_keys = qw(ymd y m d wday wday_ja wday_en name);
+my @all_keys = qw(ymd y m d wday wday_ja wday_en name reason);
 my @wday_ja  = qw(日 月 火 水 木 金 土);
 my @wday_en  = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
 
@@ -19,11 +19,25 @@ opendir(my $d_src, $src_dir) or die "opendir '$src_dir': $!";
 my @src_files = grep {/\.yml\z/} readdir($d_src);
 closedir($d_src);
 
-my @data = sort { $a->{ymd} cmp $b->{ymd} }
-map {
-    my $hash = $_;
-    map { +{ ymd => $_, name => $hash->{$_} } } keys %$hash;
-} map { YAML::Syck::LoadFile("$src_dir/$_") } @src_files;
+my @data =
+  sort { $a->{ymd} cmp $b->{ymd} }
+  map {
+      my $hash = $_;
+      map {
+          my $ymd = $_;
+          my %values = ();
+          if(!ref($hash->{$ymd})) {
+              $values{name} = $hash->{$ymd};
+          }
+          else {
+              %values = %{ $hash->{$ymd} };
+          }
+          +{ ymd => $ymd, %values }
+
+      } keys %$hash;
+  }
+  map { YAML::Syck::LoadFile("$src_dir/$_") }
+  @src_files;
 
 my %by_year;
 for (@data) {
@@ -38,7 +52,7 @@ my %outout_format = (
     yaml_long => {
         ext => "yml",
         row => sub {
-            my %v = %$_; "- { " . join(", ", map {"$_:\"$v{$_}\""} @all_keys) . " }\n";
+            my %v = %$_; "- { " . join(", ", map {"$_:\"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }\n";
         }
     },
     json_short => {
@@ -50,7 +64,7 @@ my %outout_format = (
         ext => "json", before => sub {"[\n"}, after => sub {"\n]\n"},
         join => sub { join(",\n", @_) },
         row => sub {
-            my %v = %$_; '{ ' . join(", ", map {"\"$_\":\"$v{$_}\""} @all_keys) . " }";
+            my %v = %$_; '{ ' . join(", ", map {"\"$_\":\"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }";
         }
     },
     csv_short => {
@@ -60,13 +74,13 @@ my %outout_format = (
     csv_long => {
         ext => "csv",
         row => sub {
-            my %v = %$_; join(",", map { $v{$_} } @all_keys) . "\n";
+            my %v = %$_; join(",", map { $v{$_} } grep {defined $v{$_} } @all_keys) . "\n";
         }
     },
     ltsv_long => {
         ext => "ltsv",
         row => sub {
-            my %v = %$_; join("\t", map {"$_:$v{$_}"} @all_keys) . "\n";
+            my %v = %$_; join("\t", map {"$_:$v{$_}"} grep {defined $v{$_} } @all_keys) . "\n";
         }
     },
     sql => {
@@ -96,7 +110,8 @@ while (my ($format_name, $format_spec) = each %outout_format) {
         my $dst_file = "$dst_dir/$year.$ext";
         open(my $fh, ">", $dst_file) or die "ERROR: open '$dst_file': $!";
 
-        my @filtered_rows = map { local $_ = $_; $filter_row->() }
+        my @filtered_rows =
+          map { local $_ = $_; $filter_row->() }
           map {
             my $ymd = $_->{ymd};
             ($ymd =~ /^(\d\d\d\d)-(\d\d)-(\d\d)/) or die "invalid format ymd '$ymd'";
@@ -110,6 +125,7 @@ while (my ($format_name, $format_spec) = each %outout_format) {
                 wday_ja => $wday_ja[$wday],
                 wday_en => $wday_en[$wday],
                 name    => $_->{name},
+                reason  => $_->{reason},
               }
           } @$rows;
         push @filtered_rows_all, @filtered_rows;

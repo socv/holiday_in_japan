@@ -6,7 +6,7 @@ ymd:2025-04-29	y:2025	m:4	d:29	wday:2	wday_ja:火	wday_en:Tuesday	name:昭和の
 ymd:2025-05-03	y:2025	m:5	d:3	wday:6	wday_ja:土	wday_en:Saturday	name:憲法記念日
 ymd:2025-05-04	y:2025	m:5	d:4	wday:0	wday_ja:日	wday_en:Sunday	name:みどりの日
 ymd:2025-05-05	y:2025	m:5	d:5	wday:1	wday_ja:月	wday_en:Monday	name:こどもの日
-ymd:2025-05-06	y:2025	m:5	d:6	wday:2	wday_ja:火	wday_en:Tuesday	name:振替休日 (日曜日/こどもの日)
+ymd:2025-05-06	y:2025	m:5	d:6	wday:2	wday_ja:火	wday_en:Tuesday	name:振替休日	reason:日曜日/こどもの日
 ymd:2025-07-21	y:2025	m:7	d:21	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2025-08-11	y:2025	m:8	d:11	wday:1	wday_ja:月	wday_en:Monday	name:山の日
 ymd:2025-09-15	y:2025	m:9	d:15	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
@@ -14,5 +14,5 @@ ymd:2025-09-23	y:2025	m:9	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:秋分の
 ymd:2025-10-13	y:2025	m:10	d:13	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2025-11-03	y:2025	m:11	d:3	wday:1	wday_ja:月	wday_en:Monday	name:文化の日
 ymd:2025-11-23	y:2025	m:11	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:勤労感謝の日
-ymd:2025-11-24	y:2025	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/勤労感謝の日)
+ymd:2025-11-24	y:2025	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/勤労感謝の日
 ymd:2025-12-23	y:2025	m:12	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:天皇誕生日

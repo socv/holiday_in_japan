@@ -8,4 +8,4 @@ ymd:1980-09-15	y:1980	m:9	d:15	wday:1	wday_ja:月	wday_en:Monday	name:敬老の�
 ymd:1980-10-10	y:1980	m:10	d:10	wday:5	wday_ja:金	wday_en:Friday	name:体育の日
 ymd:1980-11-03	y:1980	m:11	d:3	wday:1	wday_ja:月	wday_en:Monday	name:文化の日
 ymd:1980-11-23	y:1980	m:11	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:勤労感謝の日
-ymd:1980-11-24	y:1980	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日 (日曜日/勤労感謝の日)
+ymd:1980-11-24	y:1980	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/勤労感謝の日

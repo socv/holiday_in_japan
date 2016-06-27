@@ -5,7 +5,7 @@ ymd:2048-04-29	y:2048	m:4	d:29	wday:3	wday_ja:水	wday_en:Wednesday	name:昭和�
 ymd:2048-05-03	y:2048	m:5	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:憲法記念日
 ymd:2048-05-04	y:2048	m:5	d:4	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
 ymd:2048-05-05	y:2048	m:5	d:5	wday:2	wday_ja:火	wday_en:Tuesday	name:こどもの日
-ymd:2048-05-06	y:2048	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替休日 (日曜日/こどもの日)
+ymd:2048-05-06	y:2048	m:5	d:6	wday:3	wday_ja:水	wday_en:Wednesday	name:振替休日	reason:日曜日/こどもの日
 ymd:2048-07-20	y:2048	m:7	d:20	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2048-08-11	y:2048	m:8	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:山の日
 ymd:2048-09-21	y:2048	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日

@@ -2,7 +2,7 @@
 - { ymd:"2027-01-11", y:"2027", m:"1", d:"11", wday:"1", wday_ja:"月", wday_en:"Monday", name:"成人の日" }
 - { ymd:"2027-02-11", y:"2027", m:"2", d:"11", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"建国記念の日" }
 - { ymd:"2027-03-21", y:"2027", m:"3", d:"21", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"春分の日(未確定)" }
-- { ymd:"2027-03-22", y:"2027", m:"3", d:"22", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
+- { ymd:"2027-03-22", y:"2027", m:"3", d:"22", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日", reason:"日曜日/" }
 - { ymd:"2027-04-29", y:"2027", m:"4", d:"29", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"昭和の日" }
 - { ymd:"2027-05-03", y:"2027", m:"5", d:"3", wday:"1", wday_ja:"月", wday_en:"Monday", name:"憲法記念日" }
 - { ymd:"2027-05-04", y:"2027", m:"5", d:"4", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"みどりの日" }

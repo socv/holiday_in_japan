@@ -1,9 +1,9 @@
 - { ymd:"2040-01-01", y:"2040", m:"1", d:"1", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"元日" }
-- { ymd:"2040-01-02", y:"2040", m:"1", d:"2", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日 (日曜日/元日)" }
+- { ymd:"2040-01-02", y:"2040", m:"1", d:"2", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日", reason:"日曜日/元日" }
 - { ymd:"2040-01-09", y:"2040", m:"1", d:"9", wday:"1", wday_ja:"月", wday_en:"Monday", name:"成人の日" }
 - { ymd:"2040-02-11", y:"2040", m:"2", d:"11", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"建国記念の日" }
 - { ymd:"2040-04-29", y:"2040", m:"4", d:"29", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"昭和の日" }
-- { ymd:"2040-04-30", y:"2040", m:"4", d:"30", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日 (日曜日/昭和の日)" }
+- { ymd:"2040-04-30", y:"2040", m:"4", d:"30", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日", reason:"日曜日/昭和の日" }
 - { ymd:"2040-05-03", y:"2040", m:"5", d:"3", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"憲法記念日" }
 - { ymd:"2040-05-04", y:"2040", m:"5", d:"4", wday:"5", wday_ja:"金", wday_en:"Friday", name:"みどりの日" }
 - { ymd:"2040-05-05", y:"2040", m:"5", d:"5", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"こどもの日" }
@@ -14,4 +14,4 @@
 - { ymd:"2040-11-03", y:"2040", m:"11", d:"3", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"文化の日" }
 - { ymd:"2040-11-23", y:"2040", m:"11", d:"23", wday:"5", wday_ja:"金", wday_en:"Friday", name:"勤労感謝の日" }
 - { ymd:"2040-12-23", y:"2040", m:"12", d:"23", wday:"0", wday_ja:"日", wday_en:"Sunday", name:"天皇誕生日" }
-- { ymd:"2040-12-24", y:"2040", m:"12", d:"24", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
+- { ymd:"2040-12-24", y:"2040", m:"12", d:"24", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日", reason:"日曜日/" }

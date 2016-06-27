@@ -8,7 +8,7 @@ ymd:2049-05-05	y:2049	m:5	d:5	wday:3	wday_ja:水	wday_en:Wednesday	name:こど�
 ymd:2049-07-19	y:2049	m:7	d:19	wday:1	wday_ja:月	wday_en:Monday	name:海の日
 ymd:2049-08-11	y:2049	m:8	d:11	wday:3	wday_ja:水	wday_en:Wednesday	name:山の日
 ymd:2049-09-20	y:2049	m:9	d:20	wday:1	wday_ja:月	wday_en:Monday	name:敬老の日
-ymd:2049-09-21	y:2049	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日 (敬老の日/秋分の日)
+ymd:2049-09-21	y:2049	m:9	d:21	wday:2	wday_ja:火	wday_en:Tuesday	name:国民の休日	reason:敬老の日/秋分の日
 ymd:2049-10-11	y:2049	m:10	d:11	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2049-11-03	y:2049	m:11	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:文化の日
 ymd:2049-11-23	y:2049	m:11	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:勤労感謝の日

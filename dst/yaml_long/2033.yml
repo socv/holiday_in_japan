@@ -1,7 +1,7 @@
 - { ymd:"2033-01-01", y:"2033", m:"1", d:"1", wday:"6", wday_ja:"土", wday_en:"Saturday", name:"元日" }
 - { ymd:"2033-01-10", y:"2033", m:"1", d:"10", wday:"1", wday_ja:"月", wday_en:"Monday", name:"成人の日" }
 - { ymd:"2033-02-11", y:"2033", m:"2", d:"11", wday:"5", wday_ja:"金", wday_en:"Friday", name:"建国記念の日" }
-- { ymd:"2033-03-21", y:"2033", m:"3", d:"21", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日" }
+- { ymd:"2033-03-21", y:"2033", m:"3", d:"21", wday:"1", wday_ja:"月", wday_en:"Monday", name:"振替休日", reason:"日曜日/" }
 - { ymd:"2033-04-29", y:"2033", m:"4", d:"29", wday:"5", wday_ja:"金", wday_en:"Friday", name:"昭和の日" }
 - { ymd:"2033-05-03", y:"2033", m:"5", d:"3", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"憲法記念日" }
 - { ymd:"2033-05-04", y:"2033", m:"5", d:"4", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"みどりの日" }
