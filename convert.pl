@@ -52,7 +52,7 @@ my %outout_format = (
     yaml_long => {
         ext => "yml",
         row => sub {
-            my %v = %$_; "- { " . join(", ", map {"$_:\"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }\n";
+            my %v = %$_; "- { " . join(", ", map {"$_: \"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }\n";
         }
     },
     json_short => {

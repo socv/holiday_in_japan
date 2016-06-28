@@ -1,15 +1,15 @@
-- { ymd:"2032-01-01", y:"2032", m:"1", d:"1", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"元日" }
-- { ymd:"2032-01-12", y:"2032", m:"1", d:"12", wday:"1", wday_ja:"月", wday_en:"Monday", name:"成人の日" }
-- { ymd:"2032-02-11", y:"2032", m:"2", d:"11", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"建国記念の日" }
-- { ymd:"2032-04-29", y:"2032", m:"4", d:"29", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"昭和の日" }
-- { ymd:"2032-05-03", y:"2032", m:"5", d:"3", wday:"1", wday_ja:"月", wday_en:"Monday", name:"憲法記念日" }
-- { ymd:"2032-05-04", y:"2032", m:"5", d:"4", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"みどりの日" }
-- { ymd:"2032-05-05", y:"2032", m:"5", d:"5", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"こどもの日" }
-- { ymd:"2032-07-19", y:"2032", m:"7", d:"19", wday:"1", wday_ja:"月", wday_en:"Monday", name:"海の日" }
-- { ymd:"2032-08-11", y:"2032", m:"8", d:"11", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"山の日" }
-- { ymd:"2032-09-20", y:"2032", m:"9", d:"20", wday:"1", wday_ja:"月", wday_en:"Monday", name:"敬老の日" }
-- { ymd:"2032-09-21", y:"2032", m:"9", d:"21", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"国民の休日", reason:"敬老の日/秋分の日" }
-- { ymd:"2032-10-11", y:"2032", m:"10", d:"11", wday:"1", wday_ja:"月", wday_en:"Monday", name:"体育の日" }
-- { ymd:"2032-11-03", y:"2032", m:"11", d:"3", wday:"3", wday_ja:"水", wday_en:"Wednesday", name:"文化の日" }
-- { ymd:"2032-11-23", y:"2032", m:"11", d:"23", wday:"2", wday_ja:"火", wday_en:"Tuesday", name:"勤労感謝の日" }
-- { ymd:"2032-12-23", y:"2032", m:"12", d:"23", wday:"4", wday_ja:"木", wday_en:"Thursday", name:"天皇誕生日" }
+- { ymd: "2032-01-01", y: "2032", m: "1", d: "1", wday: "4", wday_ja: "木", wday_en: "Thursday", name: "元日" }
+- { ymd: "2032-01-12", y: "2032", m: "1", d: "12", wday: "1", wday_ja: "月", wday_en: "Monday", name: "成人の日" }
+- { ymd: "2032-02-11", y: "2032", m: "2", d: "11", wday: "3", wday_ja: "水", wday_en: "Wednesday", name: "建国記念の日" }
+- { ymd: "2032-04-29", y: "2032", m: "4", d: "29", wday: "4", wday_ja: "木", wday_en: "Thursday", name: "昭和の日" }
+- { ymd: "2032-05-03", y: "2032", m: "5", d: "3", wday: "1", wday_ja: "月", wday_en: "Monday", name: "憲法記念日" }
+- { ymd: "2032-05-04", y: "2032", m: "5", d: "4", wday: "2", wday_ja: "火", wday_en: "Tuesday", name: "みどりの日" }
+- { ymd: "2032-05-05", y: "2032", m: "5", d: "5", wday: "3", wday_ja: "水", wday_en: "Wednesday", name: "こどもの日" }
+- { ymd: "2032-07-19", y: "2032", m: "7", d: "19", wday: "1", wday_ja: "月", wday_en: "Monday", name: "海の日" }
+- { ymd: "2032-08-11", y: "2032", m: "8", d: "11", wday: "3", wday_ja: "水", wday_en: "Wednesday", name: "山の日" }
+- { ymd: "2032-09-20", y: "2032", m: "9", d: "20", wday: "1", wday_ja: "月", wday_en: "Monday", name: "敬老の日" }
+- { ymd: "2032-09-21", y: "2032", m: "9", d: "21", wday: "2", wday_ja: "火", wday_en: "Tuesday", name: "国民の休日", reason: "敬老の日/秋分の日" }
+- { ymd: "2032-10-11", y: "2032", m: "10", d: "11", wday: "1", wday_ja: "月", wday_en: "Monday", name: "体育の日" }
+- { ymd: "2032-11-03", y: "2032", m: "11", d: "3", wday: "3", wday_ja: "水", wday_en: "Wednesday", name: "文化の日" }
+- { ymd: "2032-11-23", y: "2032", m: "11", d: "23", wday: "2", wday_ja: "火", wday_en: "Tuesday", name: "勤労感謝の日" }
+- { ymd: "2032-12-23", y: "2032", m: "12", d: "23", wday: "4", wday_ja: "木", wday_en: "Thursday", name: "天皇誕生日" }
