@@ -85,7 +85,10 @@ my %outout_format = (
     },
     sql => {
         ext    => "sql",
-        before => sub {"REPLACE INTO holiday (`date`,`description`) VALUES \n"},
+        before => sub {
+            "CREATE TABLE IF NOT EXISTS `holiday` (`date` date NOT NULL, `description` text, PRIMARY KEY (date));\n"
+            . "REPLACE INTO `holiday` (`date`,`description`) VALUES \n"
+        },
         after  => sub {";\n"},
         join   => sub { join ",\n", @_ },
         row => sub { "('" . $_->{ymd} . "','" . $_->{name} . "')" },

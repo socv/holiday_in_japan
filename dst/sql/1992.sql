@@ -1,4 +1,5 @@
-REPLACE INTO holiday (`date`,`description`) VALUES 
+CREATE TABLE IF NOT EXISTS `holiday` (`date` date NOT NULL, `description` text, PRIMARY KEY (date));
+REPLACE INTO `holiday` (`date`,`description`) VALUES 
 ('1992-01-01','元日'),
 ('1992-01-15','成人の日'),
 ('1992-02-11','建国記念の日'),
