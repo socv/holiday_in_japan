@@ -99,8 +99,9 @@ my %outout_format = (
                 map { "$_\n" } qw(
                   CALSCALE:GREGORIAN
                   METHOD:PUBLISH
-                  X-WR-CALNAME:holiday_in_japan
+                  X-WR-CALNAME:holiday_in_japan(日本の祝日や休日)
                   X-WR-TIMEZONE:Asia/Tokyo
+                  X-WR-CALDESC:日本の祝日や休日
                   BEGIN:VTIMEZONE
                   TZID:Asia/Tokyo
                   X-LIC-LOCATION:Asia/Tokyo
@@ -117,14 +118,16 @@ my %outout_format = (
         },
         after => sub { "END:VCALENDAR\n" },
         row   => sub {
-            my %v          = %$_;
-            my $ymd_digits = $v{ymd_digits};
+            my %v           = %$_;
+            my $ymd_digits  = $v{ymd_digits};
+            my $description = $v{reason} // "";
+            $description =~ s/\n/\\n/gs;
             return
                 "BEGIN:VEVENT\n"
               . "DTSTART;VALUE=DATE:$ymd_digits\n"
               . "DTEND;VALUE=DATE:$ymd_digits\n"
               . "SUMMARY:$v{name}\n"
-              . "DESCRIPTION:\n"
+              . ($description ? "DESCRIPTION:$description\n" : "")
               . "END:VEVENT\n";
         },
     },
@@ -155,16 +158,16 @@ while (my ($format_name, $format_spec) = each %outout_format) {
             my $ymd_digits = "$1$2$3";
             my ($y, $m, $d) = (int($1), int($2), int($3));
             my (undef, undef, undef, undef, undef, undef, $wday) = localtime mktime(0, 0, 0, $d, $m - 1, $y - 1900);
-            +{  ymd     => $ymd,
+            +{  ymd        => $ymd,
                 ymd_digits => $ymd_digits,
-                y       => $y,
-                m       => $m,
-                d       => $d,
-                wday    => $wday,
-                wday_ja => $wday_ja[$wday],
-                wday_en => $wday_en[$wday],
-                name    => $_->{name},
-                reason  => $_->{reason},
+                y          => $y,
+                m          => $m,
+                d          => $d,
+                wday       => $wday,
+                wday_ja    => $wday_ja[$wday],
+                wday_en    => $wday_en[$wday],
+                name       => $_->{name},
+                reason     => $_->{reason},
               }
           } @$rows;
         push @filtered_rows_all, @filtered_rows;
