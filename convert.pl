@@ -26,13 +26,12 @@ my @data = sort { $a->{ymd} cmp $b->{ymd} }
         my $ymd    = $_;
         my %values = ();
         if (!ref($hash->{$ymd})) {
-            $values{name} = $hash->{$ymd};
+            %values = (name => $hash->{$ymd});
         }
         else {
             %values = %{ $hash->{$ymd} };
         }
-        +{ ymd => $ymd, %values }
-
+        +{ %values, ymd => $ymd }
     } keys %$hash;
   }
   map { YAML::Syck::LoadFile("$src_dir/$_") } @src_files;
