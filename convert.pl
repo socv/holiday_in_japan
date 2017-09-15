@@ -16,28 +16,26 @@ my @wday_en  = qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
 
 
 opendir(my $d_src, $src_dir) or die "opendir '$src_dir': $!";
-my @src_files = grep {/\.yml\z/} readdir($d_src);
+my @src_files = grep { /\.yml\z/ } readdir($d_src);
 closedir($d_src);
 
-my @data =
-  sort { $a->{ymd} cmp $b->{ymd} }
+my @data = sort { $a->{ymd} cmp $b->{ymd} }
   map {
-      my $hash = $_;
-      map {
-          my $ymd = $_;
-          my %values = ();
-          if(!ref($hash->{$ymd})) {
-              $values{name} = $hash->{$ymd};
-          }
-          else {
-              %values = %{ $hash->{$ymd} };
-          }
-          +{ ymd => $ymd, %values }
+    my $hash = $_;
+    map {
+        my $ymd    = $_;
+        my %values = ();
+        if (!ref($hash->{$ymd})) {
+            $values{name} = $hash->{$ymd};
+        }
+        else {
+            %values = %{ $hash->{$ymd} };
+        }
+        +{ ymd => $ymd, %values }
 
-      } keys %$hash;
+    } keys %$hash;
   }
-  map { YAML::Syck::LoadFile("$src_dir/$_") }
-  @src_files;
+  map { YAML::Syck::LoadFile("$src_dir/$_") } @src_files;
 
 my %by_year;
 for (@data) {
@@ -52,19 +50,19 @@ my %outout_format = (
     yaml_long => {
         ext => "yml",
         row => sub {
-            my %v = %$_; "- { " . join(", ", map {"$_: \"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }\n";
+            my %v = %$_; "- { " . join(", ", map { "$_: \"$v{$_}\"" } grep { defined $v{$_} } @all_keys) . " }\n";
         }
     },
     json_short => {
-        ext => "json", before => sub {"{\n"}, after => sub {"\n}\n"},
+        ext => "json", before => sub { "{\n" }, after => sub { "\n}\n" },
         join => sub { join(",\n", @_) },
-        row => sub { '"' . $_->{ymd} . '": "' . $_->{name} . '"' }
+        row  => sub { '"' . $_->{ymd} . '": "' . $_->{name} . '"' }
     },
     json_long => {
-        ext => "json", before => sub {"[\n"}, after => sub {"\n]\n"},
+        ext => "json", before => sub { "[\n" }, after => sub { "\n]\n" },
         join => sub { join(",\n", @_) },
-        row => sub {
-            my %v = %$_; '{ ' . join(", ", map {"\"$_\":\"$v{$_}\""} grep {defined $v{$_} } @all_keys) . " }";
+        row  => sub {
+            my %v = %$_; '{ ' . join(", ", map { "\"$_\":\"$v{$_}\"" } grep { defined $v{$_} } @all_keys) . " }";
         }
     },
     csv_short => {
@@ -74,24 +72,24 @@ my %outout_format = (
     csv_long => {
         ext => "csv",
         row => sub {
-            my %v = %$_; join(",", map { $v{$_} } grep {defined $v{$_} } @all_keys) . "\n";
+            my %v = %$_; join(",", map { $v{$_} } grep { defined $v{$_} } @all_keys) . "\n";
         }
     },
     ltsv_long => {
         ext => "ltsv",
         row => sub {
-            my %v = %$_; join("\t", map {"$_:$v{$_}"} grep {defined $v{$_} } @all_keys) . "\n";
+            my %v = %$_; join("\t", map { "$_:$v{$_}" } grep { defined $v{$_} } @all_keys) . "\n";
         }
     },
     sql => {
         ext    => "sql",
         before => sub {
             "CREATE TABLE IF NOT EXISTS `holiday` (`date` date NOT NULL, `description` text, PRIMARY KEY (date));\n"
-            . "REPLACE INTO `holiday` (`date`,`description`) VALUES \n"
+              . "REPLACE INTO `holiday` (`date`,`description`) VALUES \n";
         },
-        after  => sub {";\n"},
-        join   => sub { join ",\n", @_ },
-        row => sub { "('" . $_->{ymd} . "','" . $_->{name} . "')" },
+        after => sub { ";\n" },
+        join  => sub { join ",\n", @_ },
+        row   => sub { "('" . $_->{ymd} . "','" . $_->{name} . "')" },
     },
 );
 
@@ -101,8 +99,8 @@ while (my ($format_name, $format_spec) = each %outout_format) {
 
     my $ext           = $format_spec->{ext};
     my $filter_row    = $format_spec->{row};
-    my $filter_before = $format_spec->{before} // sub {""};
-    my $filter_after  = $format_spec->{after} // sub {""};
+    my $filter_before = $format_spec->{before} // sub { "" };
+    my $filter_after  = $format_spec->{after} // sub { "" };
     my $filter_join   = $format_spec->{join} // sub { join "", @_ };
 
     my @filtered_rows_all;
@@ -113,8 +111,7 @@ while (my ($format_name, $format_spec) = each %outout_format) {
         my $dst_file = "$dst_dir/$year.$ext";
         open(my $fh, ">", $dst_file) or die "ERROR: open '$dst_file': $!";
 
-        my @filtered_rows =
-          map { local $_ = $_; $filter_row->() }
+        my @filtered_rows = map { local $_ = $_; $filter_row->() }
           map {
             my $ymd = $_->{ymd};
             ($ymd =~ /^(\d\d\d\d)-(\d\d)-(\d\d)/) or die "invalid format ymd '$ymd'";
