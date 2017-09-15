@@ -91,6 +91,44 @@ my %outout_format = (
         join  => sub { join ",\n", @_ },
         row   => sub { "('" . $_->{ymd} . "','" . $_->{name} . "')" },
     },
+    iCalendar => {
+        ext    => "ics",
+        before => sub {
+            my $ymd = POSIX::strftime("%Y%m%d", localtime);
+            return "BEGIN:VCALENDAR\n" . "VERSION:2.0\n" . "PRODID:-//socv/hiliday_in_japan//$ymd//EN\n" . join(
+                "",
+                map { "$_\n" } qw(
+                  CALSCALE:GREGORIAN
+                  METHOD:PUBLISH
+                  X-WR-CALNAME:holiday_in_japan
+                  X-WR-TIMEZONE:Asia/Tokyo
+                  BEGIN:VTIMEZONE
+                  TZID:Asia/Tokyo
+                  X-LIC-LOCATION:Asia/Tokyo
+                  BEGIN:STANDARD
+                  TZOFFSETFROM:+0900
+                  TZOFFSETTO:+0900
+                  TZNAME:JST
+                  DTSTART:19700101T000000
+                  END:STANDARD
+                  END:VTIMEZONE
+                  )
+              )
+
+        },
+        after => sub { "END:VCALENDAR\n" },
+        row   => sub {
+            my %v          = %$_;
+            my $ymd_digits = $v{ymd_digits};
+            return
+                "BEGIN:VEVENT\n"
+              . "DTSTART;VALUE=DATE:$ymd_digits\n"
+              . "DTEND;VALUE=DATE:$ymd_digits\n"
+              . "SUMMARY:$v{name}\n"
+              . "DESCRIPTION:\n"
+              . "END:VEVENT\n";
+        },
+    },
 );
 
 while (my ($format_name, $format_spec) = each %outout_format) {
@@ -115,9 +153,11 @@ while (my ($format_name, $format_spec) = each %outout_format) {
           map {
             my $ymd = $_->{ymd};
             ($ymd =~ /^(\d\d\d\d)-(\d\d)-(\d\d)/) or die "invalid format ymd '$ymd'";
+            my $ymd_digits = "$1$2$3";
             my ($y, $m, $d) = (int($1), int($2), int($3));
             my (undef, undef, undef, undef, undef, undef, $wday) = localtime mktime(0, 0, 0, $d, $m - 1, $y - 1900);
             +{  ymd     => $ymd,
+                ymd_digits => $ymd_digits,
                 y       => $y,
                 m       => $m,
                 d       => $d,
