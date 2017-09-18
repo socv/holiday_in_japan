@@ -19,22 +19,27 @@ opendir(my $d_src, $src_dir) or die "opendir '$src_dir': $!";
 my @src_files = grep { /\.yml\z/ } readdir($d_src);
 closedir($d_src);
 
+
 my @data = sort { $a->{ymd} cmp $b->{ymd} }
-  map {
-    my $hash = $_;
-    map {
-        my $ymd    = $_;
-        my %values = ();
+map {
+    my $filename = "$src_dir/$_";
+    my $hash = eval { YAML::Syck::LoadFile($filename) } // die "ERROR: ymlfile='$filename: $@";
+    my @result;
+    my $common = $hash->{common} // {};
+    for my $ymd (keys %$hash) {
+        next if $ymd !~ /^\d/;
+        my %values = (%$common);
         if (!ref($hash->{$ymd})) {
-            %values = (name => $hash->{$ymd});
+            $values{name} = $hash->{$ymd};
         }
         else {
-            %values = %{ $hash->{$ymd} };
+            %values = (%values, %{ $hash->{$ymd} });
         }
-        +{ %values, ymd => $ymd }
-    } keys %$hash;
+        push @result, +{ %values, ymd => $ymd };
+    }
+    @result;
   }
-  map { YAML::Syck::LoadFile("$src_dir/$_") } @src_files;
+sort @src_files;
 
 my %by_year;
 for (@data) {
@@ -120,7 +125,14 @@ my %outout_format = (
         row   => sub {
             my %v           = %$_;
             my $ymd_digits  = $v{ymd_digits};
-            my $description = $v{reason} // "";
+            my %label = (
+                reason => "理由",
+                reason_of_date => "日付の理由",
+                reason_of_holiday => "祝日になった理由・経緯",
+                date => "日付について",
+            );
+            my $description = join("\n\n", map { $label{$_}. ": ". $v{$_} } grep { defined $v{$_} } qw[reason reason_of_date reason_of_holiday date]);
+
             $description =~ s/\n/\\n/gs;
             return
                 "BEGIN:VEVENT\n"
@@ -152,8 +164,9 @@ while (my ($format_name, $format_spec) = each %outout_format) {
         open(my $fh, ">", $dst_file) or die "ERROR: open '$dst_file': $!";
 
         my @filtered_rows = map { local $_ = $_; $filter_row->() }
-          map {
-            my $ymd = $_->{ymd};
+        map {
+            my $row = $_;
+            my $ymd = $row->{ymd};
             ($ymd =~ /^(\d\d\d\d)-(\d\d)-(\d\d)/) or die "invalid format ymd '$ymd'";
             my $ymd_digits = "$1$2$3";
             my ($y, $m, $d) = (int($1), int($2), int($3));
@@ -166,8 +179,7 @@ while (my ($format_name, $format_spec) = each %outout_format) {
                 wday       => $wday,
                 wday_ja    => $wday_ja[$wday],
                 wday_en    => $wday_en[$wday],
-                name       => $_->{name},
-                reason     => $_->{reason},
+                (map { $_ => $row->{$_} } qw[name reason reason_of_date reason_of_holiday date])
               }
           } @$rows;
         push @filtered_rows_all, @filtered_rows;

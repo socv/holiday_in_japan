@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//socv/hiliday_in_japan//20170916//EN
+PRODID:-//socv/hiliday_in_japan//20170919//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:holiday_in_japan(日本の祝日や休日)
@@ -20,61 +20,72 @@ BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940101
 DTEND;VALUE=DATE:19940101
 SUMMARY:元日
+DESCRIPTION:日付の理由: 1年の始まりの日\n\n祝日になった理由・経緯: 日本では明治から大正・昭和前期まで皇室行事である四方拝にちなみ、四方節（しほうせつ）と呼ばれて祝祭日の中の四大節（紀元節、四方節、天長節、明治節）の一つとされてきた。\n\n日付について: 1月1日で固定
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940115
 DTEND;VALUE=DATE:19940115
 SUMMARY:成人の日
+DESCRIPTION:日付の理由: かつて元服の儀が小正月に行われていた\n\n祝日になった理由・経緯: 小正月\n\n日付について: 1948年～1999年(平成11年)までは1月15日\n2000年～ ハッピーマンデー 1月第2月曜日(例:2014年は1月13日)\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940211
 DTEND;VALUE=DATE:19940211
 SUMMARY:建国記念の日
+DESCRIPTION:日付の理由: 日本神話の登場人物であり古事記や日本書紀で初代天皇とされる神武天皇の即位日が、\n日本書紀に紀元前660年1月1日(旧暦)とあり、その即位月日を明治に入り新暦に換算した日付である。\n\n\n祝日になった理由・経緯: 1948年(昭和23年)に廃止されるまで、2月11日は「紀元節[きげんせつ]」として祝日であった。\n\n日付について: 1967年～  日付固定 2月11日
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940429
 DTEND;VALUE=DATE:19940429
 SUMMARY:みどりの日
+DESCRIPTION:日付の理由: 天皇の誕生日\n\n祝日になった理由・経緯: 明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について: 1948年(昭和23年)～1988年(昭和63年) 日付固定 4月29日 「天皇誕生日」\n1989年(平成元年)〜2006年(平成19年) 日付固定 4月29日 「みどりの日」\n2007年(平成19年)～                 日付固定 4月29日 「昭和の日」\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940503
 DTEND;VALUE=DATE:19940503
 SUMMARY:憲法記念日
+DESCRIPTION:日付の理由: 5月1日はメーデーで騒がしいので避け、5月5日は男子の節句であるため避け、1947年(昭和22年)5月3日を日本国憲法の施行日にするという名目であったが、\n実際は1946年(昭和21年)11月3日を日本国憲法の公布日とするため半年後の5月3日を施行日にした。\n\n\n祝日になった理由・経緯: 1948年衆参文化委員会にて決定\n\n日付について: 1948年～...  : 日付固定 5月3日\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940504
 DTEND;VALUE=DATE:19940504
 SUMMARY:国民の休日
-DESCRIPTION:憲法記念日/こどもの日
+DESCRIPTION:理由: 憲法記念日/こどもの日
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940505
 DTEND;VALUE=DATE:19940505
 SUMMARY:こどもの日
+DESCRIPTION:日付の理由: 古来から端午の節句として祝われ、行事が行われていた日。\n\n祝日になった理由・経緯: 祝日を決めるための文化委員会にて、請願や陳情が多かったことが明かになったため\n\n日付について: 1948年～ : 日付固定5月5日\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19940915
 DTEND;VALUE=DATE:19940915
 SUMMARY:敬老の日
+DESCRIPTION:日付の理由: 1947年（昭和22年）9月15日に兵庫県多可郡野間谷村(当時の地名)で、村主催の「敬老会」を開催したのが始まり。\n農閑期にあたり気候も良いという理由で9月中旬が選ばれた。\n\n\n祝日になった理由・経緯: 村長・門脇政夫は1948年第2回敬老会において、村独自の祝日「としよりの日」とすることを提唱。周辺自治体へも働きかけた。\n1950年から兵庫県が「としよりの日」を制定。\n1951年に中央社会福祉協議会が9月15日を「としよりの日」と定めた。\n1963年に制定された老人福祉法では、9月15日が「老人の日」として定められた。\n1966年に「国民の祝日に関する法律」が改正され、国民の祝日「敬老の日」に制定\n\n\n日付について: 1966～2002: 9月15日\n2003年～... : 9月第3月曜日 (2003年は9月15日)\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19941010
 DTEND;VALUE=DATE:19941010
 SUMMARY:体育の日
+DESCRIPTION:日付の理由: 1964年(昭和39年)10月10日に、東京オリンピックの開会式が行われた\n\n祝日になった理由・経緯: 不明\n\n日付について: 1966年～1999年 : 10月10日\n2000年～... : 10月の第2月曜日 (2000年10月9日)\n
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19941103
 DTEND;VALUE=DATE:19941103
 SUMMARY:文化の日
+DESCRIPTION:日付の理由: 元々11月3日は明治節(明治天皇の誕生日)。その日を祝日にするため、その日に日本国憲法を公布。\n\n日付について: 11月3日で固定
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19941123
 DTEND;VALUE=DATE:19941123
 SUMMARY:勤労感謝の日
+DESCRIPTION:日付の理由: 宮中祭祀のひとつ「新嘗祭」が行われる日。\n\n祝日になった理由・経緯: 終戦まで祝祭日であったものを、同じ日付を祝日としたまま、別の名目を割り当てた。\n\n日付について: 11月23日で固定
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:19941223
 DTEND;VALUE=DATE:19941223
 SUMMARY:天皇誕生日
+DESCRIPTION:日付の理由: 天皇の誕生日\n\n祝日になった理由・経緯: 明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について: 1989年〜 : 12月23日で固定\n
 END:VEVENT
 END:VCALENDAR
