@@ -1,0 +1,6 @@
+{
+[%+ FOREACH row IN rows %]
+  [% ",\n" UNLESS loop.first %]
+  [% %]"[% row.ymd %]": "[%+ row.name %]"
+[% END +%]
+}

@@ -1,0 +1,8 @@
+[% FOREACH row IN rows %]
+  [% FOREACH k IN standard_all_keys %]
+    [% NEXT UNLESS row.defined(k) %]
+    [% "," UNLESS loop.first %]
+    [% row.$k %]
+  [% END %]
+  [% "\n" %]
+[% END %]

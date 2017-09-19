@@ -1,0 +1,3 @@
+[% FOREACH row IN rows %]
+  [% row.ymd %]: [% row.name +%]
+[%+ END %]
