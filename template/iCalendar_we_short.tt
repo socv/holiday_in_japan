@@ -1,0 +1,48 @@
+[% label = {
+purpose => "趣旨",
+reason => "理由",
+reason_of_date => "日付の理由",
+reason_of_holiday => "祝日になった理由・経緯",
+date => "日付について",
+} %]
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//socv/hiliday_in_japan//with_weekend_short//20170919//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:holiday_in_japan(日本の祝日や休日と土日)
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:日本の祝日や休日と土日
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+[%+ FOREACH row IN rows_combined %]
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:[% row.ymd_digits +%]
+DTEND;VALUE=DATE:[% row.ymd_digits +%]
+SUMMARY:[% row.name _ "\n" %]
+[% description = "" %]
+[% FOREACH k IN [
+ "purpose",
+] %]
+  [% NEXT UNLESS row.defined(k) %]
+  [% description = BLOCK %]
+    [% description %]
+    [% "\n\n" IF description %]
+    [% label.$k %]: [% row.$k %]
+  [% END %]
+[% END %]
+[%+ IF description %]
+[% description = description.replace('\n', '\\n') %]
+DESCRIPTION:[% description _ "\n" %]
+[% END %]
+END:VEVENT
+[%+ END %]
+END:VCALENDAR

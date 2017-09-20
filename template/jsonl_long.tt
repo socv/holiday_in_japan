@@ -1,0 +1,9 @@
+[% FOREACH row IN rows_holiday %]
+{ [%+ %]
+ [% FOREACH k IN standard_all_keys %]
+  [% NEXT UNLESS row.defined(k) %]
+  [% ", " UNLESS loop.first %]
+  [% %]"[% k %]":"[% row.$k %]"
+ [% END %]
+[% +%] }
+[%+ END %]

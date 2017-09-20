@@ -23,7 +23,7 @@ TZNAME:JST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
-[%+ FOREACH row IN rows %]
+[%+ FOREACH row IN rows_holiday %]
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:[% row.ymd_digits +%]
 DTEND;VALUE=DATE:[% row.ymd_digits +%]

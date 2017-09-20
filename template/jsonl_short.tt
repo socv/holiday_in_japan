@@ -1,0 +1,3 @@
+[% FOREACH row IN rows_holiday %]
+{"ymd":"[% row.ymd %]","name":"[%+ row.name %]"}
+[%+ END %]

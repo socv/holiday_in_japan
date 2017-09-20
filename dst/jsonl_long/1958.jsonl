@@ -1,0 +1,7 @@
+{ "ymd":"1958-01-01", "y":"1958", "m":"1", "d":"1", "wday":"3", "wday_ja":"水", "wday_en":"Wednesday", "name":"元日" }
+{ "ymd":"1958-01-15", "y":"1958", "m":"1", "d":"15", "wday":"3", "wday_ja":"水", "wday_en":"Wednesday", "name":"成人の日" }
+{ "ymd":"1958-04-29", "y":"1958", "m":"4", "d":"29", "wday":"2", "wday_ja":"火", "wday_en":"Tuesday", "name":"天皇誕生日" }
+{ "ymd":"1958-05-03", "y":"1958", "m":"5", "d":"3", "wday":"6", "wday_ja":"土", "wday_en":"Saturday", "name":"憲法記念日" }
+{ "ymd":"1958-05-05", "y":"1958", "m":"5", "d":"5", "wday":"1", "wday_ja":"月", "wday_en":"Monday", "name":"こどもの日" }
+{ "ymd":"1958-11-03", "y":"1958", "m":"11", "d":"3", "wday":"1", "wday_ja":"月", "wday_en":"Monday", "name":"文化の日" }
+{ "ymd":"1958-11-23", "y":"1958", "m":"11", "d":"23", "wday":"0", "wday_ja":"日", "wday_en":"Sunday", "name":"勤労感謝の日" }

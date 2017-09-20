@@ -1,5 +1,5 @@
 {
-[%+ FOREACH row IN rows %]
+[%+ FOREACH row IN rows_holiday %]
   [% ",\n" UNLESS loop.first %]
   [% %]"[% row.ymd %]": "[%+ row.name %]"
 [% END +%]
