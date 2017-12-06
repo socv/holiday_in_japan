@@ -864,6 +864,9 @@ ymd:2019-01-14	y:2019	m:1	d:14	wday:1	wday_ja:月	wday_en:Monday	name:成人の�
 ymd:2019-02-11	y:2019	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記念の日
 ymd:2019-03-21	y:2019	m:3	d:21	wday:4	wday_ja:木	wday_en:Thursday	name:春分の日(未確定)
 ymd:2019-04-29	y:2019	m:4	d:29	wday:1	wday_ja:月	wday_en:Monday	name:昭和の日
+ymd:2019-04-30	y:2019	m:4	d:30	wday:2	wday_ja:火	wday_en:Tuesday	name:(仮)国民の休日
+ymd:2019-05-01	y:2019	m:5	d:1	wday:3	wday_ja:水	wday_en:Wednesday	name:(仮)即位の礼正殿の儀
+ymd:2019-05-02	y:2019	m:5	d:2	wday:4	wday_ja:木	wday_en:Thursday	name:(仮)国民の休日
 ymd:2019-05-03	y:2019	m:5	d:3	wday:5	wday_ja:金	wday_en:Friday	name:憲法記念日
 ymd:2019-05-04	y:2019	m:5	d:4	wday:6	wday_ja:土	wday_en:Saturday	name:みどりの日
 ymd:2019-05-05	y:2019	m:5	d:5	wday:0	wday_ja:日	wday_en:Sunday	name:こどもの日
