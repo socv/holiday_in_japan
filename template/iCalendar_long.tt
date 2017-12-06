@@ -5,6 +5,10 @@ reason_of_date => "日付の理由",
 reason_of_holiday => "祝日になった理由・経緯",
 date => "日付について",
 } %]
+[% BLOCK trim_head %]
+  [% content.replace('^\s+', '').replace('\n\s+', "\n") %]
+[% END %]
+[% WRAPPER trim_head %]
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//socv/hiliday_in_japan//20170919//EN
@@ -37,15 +41,13 @@ SUMMARY:[% row.name _ "\n" %]
   [% description = BLOCK %]
     [% description %]
     [% "\n\n" IF description %]
-    [% v = row.$k %]
-    [% v = v.replace('\n+$', '') %]
-    [% label.$k %]:\n[% v %]
+    [% label.$k %]:\n[% row.$k.replace('\n+$', '') %]
   [% END %]
 [% END %]
 [%+ IF description %]
-[% description = description.replace('\n', '\\n') %]
-DESCRIPTION:[% description _ "\n" %]
+DESCRIPTION:[% description.replace('\n', '\\n') _ "\n" %]
 [% END %]
 END:VEVENT
 [%+ END %]
 END:VCALENDAR
+[% END +%]
