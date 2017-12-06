@@ -33,20 +33,14 @@ date => "日付について",
     DTEND;VALUE=DATE:[% row.ymd_digits +%]
     SUMMARY:[% row.name _ "\n" %]
     [% description = "" %]
-    [% FOREACH k IN [
-     "purpose",
-     "reason", "reason_of_date", "reason_of_holiday", "date"
-    ] %]
+    [% FOREACH k IN [ "purpose", "reason", "reason_of_date", "reason_of_holiday", "date" ] %]
       [% NEXT UNLESS row.defined(k) %]
       [% description = BLOCK %]
-        [% description %]
-        [% "\n\n" IF description %]
+        [% description %][% "\n\n" IF description %]
         [% label.$k %]:\n[% row.$k.replace('\n+$', '') %]
       [% END %]
     [% END %]
-    [%+ IF description %]
-      DESCRIPTION:[% description.replace('\n', '\\n') _ "\n" %]
-    [% END %]
+    [%+ IF description %]DESCRIPTION:[% description.replace('\n', '\\n') _ "\n" %][% END %]
     END:VEVENT
   [%+ END %]
   END:VCALENDAR
