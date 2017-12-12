@@ -41,6 +41,12 @@ SUMMARY:振替休日
 DESCRIPTION:理由:\n日曜日/建国記念の日
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20460223
+DTEND;VALUE=DATE:20460223
+SUMMARY:天皇誕生日
+DESCRIPTION:趣旨:\n「天皇の誕生日を祝う」\n\n日付の理由:\n天皇の誕生日\n\n祝日になった理由・経緯:\n明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について:\n2020年〜 : 2月23日で固定
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20460429
 DTEND;VALUE=DATE:20460429
 SUMMARY:昭和の日
@@ -111,12 +117,6 @@ DTSTART;VALUE=DATE:20461123
 DTEND;VALUE=DATE:20461123
 SUMMARY:勤労感謝の日
 DESCRIPTION:趣旨:\n「勤労をたつとび、生産を祝い、国民たがいに感謝しあう」\n\n日付の理由:\n宮中祭祀のひとつ「新嘗祭」が行われる日。\n\n祝日になった理由・経緯:\n終戦まで祝祭日であったものを、同じ日付を祝日としたまま、別の名目を割り当てた。\n\n日付について:\n11月23日で固定
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20461223
-DTEND;VALUE=DATE:20461223
-SUMMARY:天皇誕生日
-DESCRIPTION:趣旨:\n「天皇の誕生日を祝う」\n\n日付の理由:\n天皇の誕生日\n\n祝日になった理由・経緯:\n明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について:\n1989年〜 : 12月23日で固定
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20461224

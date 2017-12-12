@@ -1,6 +1,7 @@
 ymd:2021-01-01	y:2021	m:1	d:1	wday:5	wday_ja:金	wday_en:Friday	name:元日
 ymd:2021-01-11	y:2021	m:1	d:11	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2021-02-11	y:2021	m:2	d:11	wday:4	wday_ja:木	wday_en:Thursday	name:建国記念の日
+ymd:2021-02-23	y:2021	m:2	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:天皇誕生日
 ymd:2021-03-20	y:2021	m:3	d:20	wday:6	wday_ja:土	wday_en:Saturday	name:春分の日(未確定)
 ymd:2021-04-29	y:2021	m:4	d:29	wday:4	wday_ja:木	wday_en:Thursday	name:昭和の日
 ymd:2021-05-03	y:2021	m:5	d:3	wday:1	wday_ja:月	wday_en:Monday	name:憲法記念日
@@ -13,4 +14,3 @@ ymd:2021-09-23	y:2021	m:9	d:23	wday:4	wday_ja:木	wday_en:Thursday	name:秋分�
 ymd:2021-10-11	y:2021	m:10	d:11	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2021-11-03	y:2021	m:11	d:3	wday:3	wday_ja:水	wday_en:Wednesday	name:文化の日
 ymd:2021-11-23	y:2021	m:11	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:勤労感謝の日
-ymd:2021-12-23	y:2021	m:12	d:23	wday:4	wday_ja:木	wday_en:Thursday	name:天皇誕生日

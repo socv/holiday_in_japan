@@ -1,6 +1,7 @@
 ymd:2036-01-01	y:2036	m:1	d:1	wday:2	wday_ja:火	wday_en:Tuesday	name:元日
 ymd:2036-01-14	y:2036	m:1	d:14	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2036-02-11	y:2036	m:2	d:11	wday:1	wday_ja:月	wday_en:Monday	name:建国記念の日
+ymd:2036-02-23	y:2036	m:2	d:23	wday:6	wday_ja:土	wday_en:Saturday	name:天皇誕生日
 ymd:2036-04-29	y:2036	m:4	d:29	wday:2	wday_ja:火	wday_en:Tuesday	name:昭和の日
 ymd:2036-05-03	y:2036	m:5	d:3	wday:6	wday_ja:土	wday_en:Saturday	name:憲法記念日
 ymd:2036-05-04	y:2036	m:5	d:4	wday:0	wday_ja:日	wday_en:Sunday	name:みどりの日
@@ -13,4 +14,3 @@ ymd:2036-10-13	y:2036	m:10	d:13	wday:1	wday_ja:月	wday_en:Monday	name:体育の
 ymd:2036-11-03	y:2036	m:11	d:3	wday:1	wday_ja:月	wday_en:Monday	name:文化の日
 ymd:2036-11-23	y:2036	m:11	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:勤労感謝の日
 ymd:2036-11-24	y:2036	m:11	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/勤労感謝の日
-ymd:2036-12-23	y:2036	m:12	d:23	wday:2	wday_ja:火	wday_en:Tuesday	name:天皇誕生日

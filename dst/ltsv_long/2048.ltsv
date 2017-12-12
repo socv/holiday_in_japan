@@ -1,6 +1,7 @@
 ymd:2048-01-01	y:2048	m:1	d:1	wday:3	wday_ja:水	wday_en:Wednesday	name:元日
 ymd:2048-01-13	y:2048	m:1	d:13	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2048-02-11	y:2048	m:2	d:11	wday:2	wday_ja:火	wday_en:Tuesday	name:建国記念の日
+ymd:2048-02-23	y:2048	m:2	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:天皇誕生日
 ymd:2048-04-29	y:2048	m:4	d:29	wday:3	wday_ja:水	wday_en:Wednesday	name:昭和の日
 ymd:2048-05-03	y:2048	m:5	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:憲法記念日
 ymd:2048-05-04	y:2048	m:5	d:4	wday:1	wday_ja:月	wday_en:Monday	name:みどりの日
@@ -12,4 +13,3 @@ ymd:2048-09-21	y:2048	m:9	d:21	wday:1	wday_ja:月	wday_en:Monday	name:敬老の�
 ymd:2048-10-12	y:2048	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2048-11-03	y:2048	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
 ymd:2048-11-23	y:2048	m:11	d:23	wday:1	wday_ja:月	wday_en:Monday	name:勤労感謝の日
-ymd:2048-12-23	y:2048	m:12	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:天皇誕生日

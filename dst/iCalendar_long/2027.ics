@@ -35,6 +35,12 @@ SUMMARY:建国記念の日
 DESCRIPTION:趣旨:\n「建国をしのび、国を愛する心を養う」\n\n日付の理由:\n日本神話の登場人物であり古事記や日本書紀で初代天皇とされる神武天皇の即位日が、\n日本書紀に紀元前660年1月1日(旧暦)とあり、その即位月日を明治に入り新暦に換算した日付である。\n\n祝日になった理由・経緯:\n1948年(昭和23年)に廃止されるまで、2月11日は「紀元節[きげんせつ]」として祝日であった。\n\n日付について:\n1967年～ : 日付固定 2月11日
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270223
+SUMMARY:天皇誕生日
+DESCRIPTION:趣旨:\n「天皇の誕生日を祝う」\n\n日付の理由:\n天皇の誕生日\n\n祝日になった理由・経緯:\n明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について:\n2020年〜 : 2月23日で固定
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270321
 SUMMARY:春分の日(未確定)
@@ -109,11 +115,5 @@ DTSTART;VALUE=DATE:20271123
 DTEND;VALUE=DATE:20271123
 SUMMARY:勤労感謝の日
 DESCRIPTION:趣旨:\n「勤労をたつとび、生産を祝い、国民たがいに感謝しあう」\n\n日付の理由:\n宮中祭祀のひとつ「新嘗祭」が行われる日。\n\n祝日になった理由・経緯:\n終戦まで祝祭日であったものを、同じ日付を祝日としたまま、別の名目を割り当てた。\n\n日付について:\n11月23日で固定
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20271223
-DTEND;VALUE=DATE:20271223
-SUMMARY:天皇誕生日
-DESCRIPTION:趣旨:\n「天皇の誕生日を祝う」\n\n日付の理由:\n天皇の誕生日\n\n祝日になった理由・経緯:\n明治元年9月22日(西暦1868年11月6日)に天長節として祝ったときからの風習\n\n日付について:\n1989年〜 : 12月23日で固定
 END:VEVENT
 END:VCALENDAR

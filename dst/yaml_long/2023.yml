@@ -2,6 +2,7 @@
 - { ymd: "2023-01-02", y: "2023", m: "1", d: "2", wday: "1", wday_ja: "月", wday_en: "Monday", name: "振替休日", reason: "日曜日/元日" }
 - { ymd: "2023-01-09", y: "2023", m: "1", d: "9", wday: "1", wday_ja: "月", wday_en: "Monday", name: "成人の日" }
 - { ymd: "2023-02-11", y: "2023", m: "2", d: "11", wday: "6", wday_ja: "土", wday_en: "Saturday", name: "建国記念の日" }
+- { ymd: "2023-02-23", y: "2023", m: "2", d: "23", wday: "4", wday_ja: "木", wday_en: "Thursday", name: "天皇誕生日" }
 - { ymd: "2023-03-21", y: "2023", m: "3", d: "21", wday: "2", wday_ja: "火", wday_en: "Tuesday", name: "春分の日(未確定)" }
 - { ymd: "2023-04-29", y: "2023", m: "4", d: "29", wday: "6", wday_ja: "土", wday_en: "Saturday", name: "昭和の日" }
 - { ymd: "2023-05-03", y: "2023", m: "5", d: "3", wday: "3", wday_ja: "水", wday_en: "Wednesday", name: "憲法記念日" }
@@ -14,4 +15,3 @@
 - { ymd: "2023-10-09", y: "2023", m: "10", d: "9", wday: "1", wday_ja: "月", wday_en: "Monday", name: "体育の日" }
 - { ymd: "2023-11-03", y: "2023", m: "11", d: "3", wday: "5", wday_ja: "金", wday_en: "Friday", name: "文化の日" }
 - { ymd: "2023-11-23", y: "2023", m: "11", d: "23", wday: "4", wday_ja: "木", wday_en: "Thursday", name: "勤労感謝の日" }
-- { ymd: "2023-12-23", y: "2023", m: "12", d: "23", wday: "6", wday_ja: "土", wday_en: "Saturday", name: "天皇誕生日" }

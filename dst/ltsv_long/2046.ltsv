@@ -2,6 +2,7 @@ ymd:2046-01-01	y:2046	m:1	d:1	wday:1	wday_ja:月	wday_en:Monday	name:元日
 ymd:2046-01-08	y:2046	m:1	d:8	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2046-02-11	y:2046	m:2	d:11	wday:0	wday_ja:日	wday_en:Sunday	name:建国記念の日
 ymd:2046-02-12	y:2046	m:2	d:12	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/建国記念の日
+ymd:2046-02-23	y:2046	m:2	d:23	wday:5	wday_ja:金	wday_en:Friday	name:天皇誕生日
 ymd:2046-04-29	y:2046	m:4	d:29	wday:0	wday_ja:日	wday_en:Sunday	name:昭和の日
 ymd:2046-04-30	y:2046	m:4	d:30	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/昭和の日
 ymd:2046-05-03	y:2046	m:5	d:3	wday:4	wday_ja:木	wday_en:Thursday	name:憲法記念日
@@ -14,5 +15,4 @@ ymd:2046-09-24	y:2046	m:9	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休�
 ymd:2046-10-08	y:2046	m:10	d:8	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2046-11-03	y:2046	m:11	d:3	wday:6	wday_ja:土	wday_en:Saturday	name:文化の日
 ymd:2046-11-23	y:2046	m:11	d:23	wday:5	wday_ja:金	wday_en:Friday	name:勤労感謝の日
-ymd:2046-12-23	y:2046	m:12	d:23	wday:0	wday_ja:日	wday_en:Sunday	name:天皇誕生日
 ymd:2046-12-24	y:2046	m:12	d:24	wday:1	wday_ja:月	wday_en:Monday	name:振替休日	reason:日曜日/

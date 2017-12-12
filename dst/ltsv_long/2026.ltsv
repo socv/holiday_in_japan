@@ -1,6 +1,7 @@
 ymd:2026-01-01	y:2026	m:1	d:1	wday:4	wday_ja:木	wday_en:Thursday	name:元日
 ymd:2026-01-12	y:2026	m:1	d:12	wday:1	wday_ja:月	wday_en:Monday	name:成人の日
 ymd:2026-02-11	y:2026	m:2	d:11	wday:3	wday_ja:水	wday_en:Wednesday	name:建国記念の日
+ymd:2026-02-23	y:2026	m:2	d:23	wday:1	wday_ja:月	wday_en:Monday	name:天皇誕生日
 ymd:2026-03-20	y:2026	m:3	d:20	wday:5	wday_ja:金	wday_en:Friday	name:春分の日(未確定)
 ymd:2026-04-29	y:2026	m:4	d:29	wday:3	wday_ja:水	wday_en:Wednesday	name:昭和の日
 ymd:2026-05-03	y:2026	m:5	d:3	wday:0	wday_ja:日	wday_en:Sunday	name:憲法記念日
@@ -15,4 +16,3 @@ ymd:2026-09-23	y:2026	m:9	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:秋分�
 ymd:2026-10-12	y:2026	m:10	d:12	wday:1	wday_ja:月	wday_en:Monday	name:体育の日
 ymd:2026-11-03	y:2026	m:11	d:3	wday:2	wday_ja:火	wday_en:Tuesday	name:文化の日
 ymd:2026-11-23	y:2026	m:11	d:23	wday:1	wday_ja:月	wday_en:Monday	name:勤労感謝の日
-ymd:2026-12-23	y:2026	m:12	d:23	wday:3	wday_ja:水	wday_en:Wednesday	name:天皇誕生日
