@@ -13,7 +13,7 @@
 - { ymd: "2030-08-12", y: "2030", m: "8", d: "12", wday: "1", wday_ja: "月", wday_en: "Monday", name: "振替休日", reason: "日曜日/" }
 - { ymd: "2030-09-16", y: "2030", m: "9", d: "16", wday: "1", wday_ja: "月", wday_en: "Monday", name: "敬老の日" }
 - { ymd: "2030-09-23", y: "2030", m: "9", d: "23", wday: "1", wday_ja: "月", wday_en: "Monday", name: "秋分の日(未確定)" }
-- { ymd: "2030-10-14", y: "2030", m: "10", d: "14", wday: "1", wday_ja: "月", wday_en: "Monday", name: "体育の日" }
+- { ymd: "2030-10-14", y: "2030", m: "10", d: "14", wday: "1", wday_ja: "月", wday_en: "Monday", name: "スポーツの日" }
 - { ymd: "2030-11-03", y: "2030", m: "11", d: "3", wday: "0", wday_ja: "日", wday_en: "Sunday", name: "文化の日" }
 - { ymd: "2030-11-04", y: "2030", m: "11", d: "4", wday: "1", wday_ja: "月", wday_en: "Monday", name: "振替休日", reason: "日曜日/文化の日" }
 - { ymd: "2030-11-23", y: "2030", m: "11", d: "23", wday: "6", wday_ja: "土", wday_en: "Saturday", name: "勤労感謝の日" }
