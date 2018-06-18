@@ -1,4 +1,6 @@
 CREATE TABLE IF NOT EXISTS `holiday` (`date` date NOT NULL, `description` text, PRIMARY KEY (date));
+BEGIN;
+DELETE FROM `holiday` WHERE `date` LIKE '2038-%';
 REPLACE INTO `holiday` (`date`,`description`) VALUES 
 ('2038-01-01','元日'),
 ('2038-01-11','成人の日'),
@@ -14,3 +16,4 @@ REPLACE INTO `holiday` (`date`,`description`) VALUES
 ('2038-10-11','スポーツの日'),
 ('2038-11-03','文化の日'),
 ('2038-11-23','勤労感謝の日');
+COMMIT;

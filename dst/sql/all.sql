@@ -1,4 +1,6 @@
 CREATE TABLE IF NOT EXISTS `holiday` (`date` date NOT NULL, `description` text, PRIMARY KEY (date));
+BEGIN;
+DELETE FROM `holiday`;
 REPLACE INTO `holiday` (`date`,`description`) VALUES 
 ('1948-01-01','元日'),
 ('1948-01-15','成人の日'),
@@ -1393,3 +1395,4 @@ REPLACE INTO `holiday` (`date`,`description`) VALUES
 ('2050-10-10','スポーツの日'),
 ('2050-11-03','文化の日'),
 ('2050-11-23','勤労感謝の日');
+COMMIT;
