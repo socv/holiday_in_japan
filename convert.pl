@@ -109,7 +109,7 @@ for my $year (sort keys %src_data_by_year) {
     };
     while (my ($format_name, $format_spec) = each %outout_format) {
         my $fh = open_dst_file(format_name => $format_name, format_spec => $format_spec, year => $year);
-        $tt->process("$format_name.tt", $vars, $fh) or die $tt->error . "\n";
+        $tt->process("$format_name.tt", { %$vars, year => $year }, $fh) or die $tt->error . "\n";
     }
 }
 
