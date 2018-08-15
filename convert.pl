@@ -56,7 +56,7 @@ my %outout_format = (
     csv_short          => { ext => "csv" },
     csv_long           => { ext => "csv" },
     ltsv_long          => { ext => "ltsv" },
-    sql                => { ext => "sql" },
+    MySQL              => { ext => "MySQL" },
     iCalendar_long     => { ext => "ics" },
     iCalendar_short    => { ext => "ics" },
     iCalendar_we_long  => { ext => "ics" },
